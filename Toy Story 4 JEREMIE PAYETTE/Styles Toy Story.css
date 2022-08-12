@@ -1,0 +1,121 @@
+body{
+    background-color: #5581c6;
+    margin: 0;
+}
+header{
+    max-height: 30.208333333333332vw;
+    overflow: hidden;
+    position: absolute;
+}
+.Header{
+    width: 100vw;
+}
+#Movie{
+    width: 17.1875vw;
+}
+.Title-Container{
+    position: relative;
+    top: 15vw;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.Header-Text{
+    font-size: 4vw;
+    color: #960001;
+    background-color: white;
+    padding: 0vw 2.0833333333333335vw;
+    font-family: Roboto, sans-serif;
+    margin-left: 1.0416666666666667vw;
+    margin-top: 8.59375vw;
+}
+.Outer-Container{
+    padding: 3vw 10vw;
+    
+}
+.Inner-Container{
+    margin-top: 17vw;
+}
+.Character-Images{
+    width: 9vw;
+    float: left;
+    padding: 0vw 1.0416666666666667vw 1.0416666666666667vw 0vw
+}
+#Woody-Image{
+    width: 9vw;
+    height: 9vw;
+    object-fit: cover;
+    object-position: top;
+    float: left;
+    padding: 0vw 1.0416666666666667vw 1.0416666666666667vw 0vw
+}
+.Character-Boxes{
+    column-count: 2;
+}
+.Actor-Links{
+    color: yellow;
+    text-decoration: none;
+}
+.Character-Names{
+    color: #960001;
+    font-size: 1.5vw;
+    margin: 0;
+    padding-bottom: 0.2604166666666667vw;
+}
+.Subtitles{
+    color: #960001;
+    font-size: 2.05vw;
+    border-bottom: solid #90bcac
+}
+.Character-Borders{
+    overflow: auto;
+    padding-right: 1.5625vw;
+    padding-bottom: 1.5625vw;
+}
+.Character-Paragraphs{
+    font-size: 1.04vw;
+    color: white;
+}
+.Played-By{
+    font-size: 1.04vw;
+    color: white;
+}
+.Synopsis-Text{
+    font-size: 1.04vw;
+    color: white;
+}
+.Yellow-Box-Text{
+    padding-left: 3.125vw;
+    font-size: 1.04vw;
+    color: #960001;
+}
+.Yellow-Box{
+    background-color: yellow;
+    padding: 1.0416666666666667vw;
+}
+.Comments-Text{
+    color: white;
+    font-size: 0.7291666666666666vw;
+}
+#Submit-Button{
+    color: white;
+    width: 18vw;
+    border: none;
+    background-color: #80549c;
+    padding: 0.6291666666666666vw 2.583333333333333vw;
+    font-size: 1.3020833333333333vw;
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;   
+    margin-top: 1vw; 
+}
+#ratingInput{
+    font-size: 1.3020833333333333vw;
+    height: 1.5625vw;
+    width: 17.65625vw;
+}
+#ratingOutput{
+    font-size: 1.5625vw;
+    padding-left: 36.458333333333336vw;
+    color: white;
+}
